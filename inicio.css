@@ -1,0 +1,72 @@
+/*botones*/
+.botones-container {
+  margin-top: 7.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 6.25rem;
+}
+.btn {
+  background-color: #817a71;
+  color: white;
+  border: 0.125rem solid #817a71;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.btn:hover {
+  background-color: orange;
+  color: black;
+  border: 0.125rem solid orange;
+}
+/*materiales*/
+.seccion-inicio {
+  padding: 6rem 1rem;
+  text-align: center;
+  background-color: white;
+}
+.div-gral-mat {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.div-mat-item {
+  width: 22rem;
+  text-align: center;
+}
+.div-mat-texto {
+  flex: 1;
+}
+.div-mat-texto h3 {
+  color: black;
+  margin-bottom: 1.875rem;
+}
+.div-tnd-texto p {
+  color: black;
+  line-height: 1.5;
+  text-align: justify;
+  margin: 0.3rem 0;
+}
+.div-mat-img {
+  flex: 1;
+}
+.div-mat-img img {
+  width: 100%;
+  height: 14rem;
+  object-fit: cover;
+}
+.btn-contactar {
+  margin-top: 1rem;
+  background-color: #817a71;
+  color: white;
+  border: none;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
+.btn-contactar:hover {
+  background-color: orange;
+  color: black;
+  border: 0.125rem solid orange;
+}
