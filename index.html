@@ -13,26 +13,43 @@
     <!--LOGO Y MENUS-->
     <nav class="topheader">
       <a herf="" class="logo">
-        <img height="100" width="120" src="logo/construp.jpg" alt="" />
+        <img
+          height="100"
+          width="120"
+          src="logo/construp.jpg"
+          alt="ocurrio un error"
+        />
       </a>
-
       <ul class="Menu-Horizontal">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="">Mis publicaciones</a></li>
-        <li><a href="">Favoritos</a></li>
+        <li><a href="">Lista de deseos</a></li>
+        <li><a href="">Mis compras</a></li>
         <li>
           <a href="">Mi cuenta</a>
           <ul class="Menu-Vertical">
             <li><a href="">Perfil</a></li>
+            <li><a href="">Historial de publicaciones</a></li>
           </ul>
         </li>
       </ul>
     </nav>
+    <nav class="buscador-general">
+      <div class="barra">
+        <input type="text" placeholder="Busca en Construp" />
+        <button class="filter-btn">
+          <img
+            src="https://icons.veryicon.com/png/o/miscellaneous/alicloud-official-website/filter-32.png"
+            alt="filtro"
+          />
+        </button>
+      </div>
+    </nav>
     <!--BOTONES-->
     <section class="botones-container">
-      <button class="btn">Publicar material</button>
-      <button class="btn">Explorar material</button>
-      <button class="btn">Recomendaciones de venta</button>
+      <button class="btn-publicar">Publicar material</button>
+      <button class="btn-explorar">Explorar material</button>
+      <button class="btn-recomen">Recomendaciones de venta</button>
     </section>
     <!--SECCION MATERIALES DE INICIO-->
     <section CLASS="seccion-inicio">
@@ -63,6 +80,7 @@
           </div>
           <button class="btn-contactar">Contactar</button>
         </div>
+        <!--3-->
         <div class="div-mat-item">
           <div class="div-mat-img">
             <img height="500" width="800" src="logo/madera.jpg" alt="" />
@@ -75,20 +93,59 @@
           </div>
           <button class="btn-contactar">Contactar</button>
         </div>
+        <!--4-->
+        <div class="div-mat-item">
+          <div class="div-mat-img">
+            <img height="500" width="800" src="logo/adobe.jpeg" alt="" />
+          </div>
+          <div class="div-mat-texto">
+            <h3>Adobde</h3>
+            <p>Los Olivos</p>
+            <p>16</p>
+            <p>S/. 120</p>
+          </div>
+          <button class="btn-contactar">Contactar</button>
+        </div>
+        <!--5-->
+        <div class="div-mat-item">
+          <div class="div-mat-img">
+            <img height="500" width="800" src="logo/asfaltoo.jpg" alt="" />
+          </div>
+          <div class="div-mat-texto">
+            <h3>Asfalto</h3>
+            <p>Comas</p>
+            <p>18</p>
+            <p>S/. 160</p>
+          </div>
+          <button class="btn-contactar">Contactar</button>
+        </div>
+        <!--6-->
+        <div class="div-mat-item">
+          <div class="div-mat-img">
+            <img height="500" width="800" src="logo/ceramica.webp" alt="" />
+          </div>
+          <div class="div-mat-texto">
+            <h3>Cerámica</h3>
+            <p>Los Olivos</p>
+            <p>30</p>
+            <p>S/. 200</p>
+          </div>
+          <button class="btn-contactar">Contactar</button>
+        </div>
       </div>
     </section>
     <!-- PIE DE PAGINA -->
-
     <section id="footer">
       <footer class="footer">
         <div class="footer-container">
           <!--nombre de sitio -->
-          <div class="footer-colum">
+          <div class="footer-column">
             <h4>Acerca de</h4>
             <p>Construp</p>
+            <small>© 2025 Todos los derechos reservados</small>
           </div>
           <!--tutoriales -->
-          <div class="footer-colum">
+          <div class="footer-column">
             <h4>Ayuda</h4>
             <ul>
               <li>Comprar</li>
@@ -96,23 +153,41 @@
             </ul>
           </div>
           <!-- Enlaces legales -->
-          <div class="footer-colum">
+          <div class="footer-column">
             <h4>Legal</h4>
             <!-- Dentro de href llama a un documento pdf con la Protección de datos-->
             <a href="/doc/obtenerDocumento.pdf">Protección de Datos</a>
           </div>
           <!--Promociones -->
-          <div class="footer-colum">
+          <div class="footer-column">
             <h4>Temporada</h4>
             <p>Black Friday</p>
           </div>
           <!-- Redes sociales con íconos personalizados -->
-          <div class="footer-colum">
+          <div class="footer-social">
             <h4>Síguenos</h4>
             <a href="#"
               ><img
                 src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
                 alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg"
+                alt="X"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+                alt="LinkdIn"
                 class="social-icon"
             /></a>
           </div>

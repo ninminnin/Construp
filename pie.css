@@ -21,7 +21,11 @@
   list-style: none;
   flex: 1;
   min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
 }
+
 .footer-column h4 {
   margin-bottom: 1rem;
   font-size: 1.15rem;
@@ -29,7 +33,7 @@
 }
 
 /* Enlaces legales */
-.footer-colum {
+.footer-column {
   flex: 1;
   min-width: 200px;
 }
@@ -40,14 +44,14 @@ footer li {
   padding: 0;
 }
 
-.footer-colum a {
+.footer-column a {
   display: block;
   color: #ccc;
   text-decoration: none;
   margin: 0.4rem 0;
 }
 
-.footer-colum a:hover {
+.footer-column a:hover {
   color: #fff;
 }
 
