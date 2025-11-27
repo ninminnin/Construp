@@ -8,13 +8,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 1.25rem;
+  z-index: 1000;
 }
 
 .Menu-Horizontal {
   list-style: none;
   display: flex;
-  justify-content: space-around;
   width: 100%;
+  justify-content: center;
+  gap: 10rem;
 }
 
 .Menu-Horizontal li a {
@@ -32,12 +34,54 @@
   position: absolute;
   display: none;
   list-style: none;
-  width: 11.25rem;
+  width: 11rem;
   background-color: white;
+  z-index: 2000;
 }
 .Menu-Horizontal li:hover .Menu-Vertical {
   display: block;
 }
 .Menu-Vertical li a {
   padding: 0.938rem 0.938rem 0.938rem 1.25rem;
+}
+
+.buscador-general {
+  position: fixed;
+  top: 6rem;
+  left: 0;
+  padding: 0.8 1.25rem;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: black;
+  z-index: 900;
+  background-color: white;
+}
+.barra {
+  display: flex;
+  align-items: center;
+  background: white;
+  padding: 0.3rem 0.6rem;
+  width: 100%;
+  max-width: 1315px;
+  gap: 0.5rem;
+}
+.barra input {
+  flex: 1;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 1.25rem;
+  border: 0.18rem solid orange;
+}
+.filter-btn {
+  background: none;
+  border: none;
+  padding: 0.45rem;
+  cursor: pointer;
+}
+
+.filter-btn img {
+  width: 1.875rem;
+  height: 1.875rem;
 }
