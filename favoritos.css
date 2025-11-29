@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* TITULO */
 .favorito {
+  font-family: "Montserrat", sans-serif;
   padding: 2rem 3rem;
   margin-top: 9rem;
   margin-left: 3rem;
@@ -17,6 +19,8 @@
   border: 0.125rem solid orange;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 0.313rem;
 }
 
 .btn-lista:hover {
@@ -33,6 +37,7 @@
   padding: 1.5rem;
   margin: 2rem auto;
   width: 100%;
+  font-family: "Montserrat", sans-serif;
   max-width: 79rem;
 }
 
@@ -55,6 +60,7 @@
   border: 0.125rem solid green;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  border-radius: 0.313rem;
 }
 
 .btn-editar:hover {
@@ -119,6 +125,7 @@
   border: 0.125rem solid orange;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  border-radius: 0.313rem;
 }
 
 .btn-contactar:hover {

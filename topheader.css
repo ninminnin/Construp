@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .topheader {
   position: fixed;
   top: 0;
@@ -17,6 +18,7 @@
   width: 100%;
   justify-content: center;
   gap: 10rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 .Menu-Horizontal li a {
@@ -70,6 +72,7 @@
   padding: 0 1rem;
 }
 .barra input {
+  font-family: "Montserrat", sans-serif;
   flex: 1;
   width: 100%;
   padding: 0.5rem;

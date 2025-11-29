@@ -1,8 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* PERFIL */
 .publicaciones {
   padding: 2rem 3rem;
   margin-top: 9rem;
   margin-left: 3rem;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*PUBLICACIONES */
@@ -18,6 +20,7 @@
   display: flex;
   gap: 1.5rem;
   background: white;
+  font-family: "Montserrat", sans-serif;
 }
 
 .publicacion-imagen {
@@ -41,6 +44,7 @@
   background-color: green;
   color: white;
   padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
 }
 
 .publicacion-menu {
@@ -68,7 +72,7 @@
   }
 
   .lista-publicaciones {
-    width: 100%;
+    width: 90%;
     padding: 0 1rem;
   }
 

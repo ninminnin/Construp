@@ -19,6 +19,8 @@
   /* Mostrar botón hamburguesa */
   .menu-hamburguesa {
     display: block;
+    margin-left: auto;
+    margin-right: 1rem;
   }
 
   /* Menú horizontal se vuelve vertical */
@@ -62,5 +64,9 @@
 
   .buscador-general {
     top: 6.8rem;
+  }
+
+  .icono-filtro {
+    margin-left: 1rem;
   }
 }
