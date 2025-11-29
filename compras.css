@@ -1,0 +1,144 @@
+/* TITULO */
+.mis-compras {
+  padding: 2rem 3rem;
+  margin-top: 9rem;
+  margin-left: 3rem;
+}
+
+.mis-compras h2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* LISTA DE COMPRAS */
+.lista-compras {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+  padding: 0 3rem 4rem;
+  align-items: center;
+}
+
+.compra-item {
+  width: 100%;
+  max-width: 79rem;
+  background: white;
+  border: 3px solid green;
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.compra-fecha {
+  width: 100%;
+  text-align: left;
+  margin-left: 6rem;
+}
+
+.compra-contenido {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.compra-imagen {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+}
+
+.compra-detalles {
+  display: flex;
+  flex-direction: column;
+}
+
+.compra-nombre {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.compra-entregado {
+  font-size: 1rem;
+  color: black;
+}
+
+.btn-detalles {
+  margin-top: 1rem;
+  background-color: orange;
+  color: white;
+  border: 0.125rem solid orange;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+}
+
+.btn-detalles:hover {
+  background-color: #828382;
+  color: white;
+  border: 0.125rem solid #828382;
+}
+
+/*RESPONSIVEE*/
+@media (max-width: 768px) {
+  .mis-compras {
+    margin: 10rem 0 2rem 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 12rem;
+  }
+
+  .mis-compras h2 {
+    text-align: center !important;
+    width: 100%;
+  }
+
+  .lista-compras {
+    padding: 0 1rem 3rem;
+    align-items: center;
+  }
+
+  .compra-fecha {
+    margin-left: 0;
+    text-align: center;
+    font-size: 0.95rem;
+  }
+
+  .compra-item {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .compra-contenido {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
+  .compra-imagen {
+    margin-top: 1rem;
+    width: 70%;
+    height: auto;
+    max-height: 12rem;
+    border-radius: 0.5rem;
+  }
+
+  .compra-detalles {
+    text-align: center;
+    width: 90%;
+  }
+
+  .compra-nombre {
+    font-size: 1.2rem;
+  }
+
+  .compra-entregado {
+    font-size: 0.9rem;
+  }
+
+  .btn-detalles {
+    margin: 0.5rem auto;
+    display: block;
+  }
+}
