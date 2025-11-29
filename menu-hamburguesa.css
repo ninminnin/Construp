@@ -1,0 +1,66 @@
+/* BOTÓN HAMBURGUESA (oculto en desktop) */
+.menu-hamburguesa {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 1rem;
+  z-index: 2000;
+}
+
+/* RESPONSIVEEee */
+@media (max-width: 768px) {
+  /* Topheader más compacto */
+  .topheader {
+    padding: 0.5rem 1rem;
+  }
+
+  /* Mostrar botón hamburguesa */
+  .menu-hamburguesa {
+    display: block;
+  }
+
+  /* Menú horizontal se vuelve vertical */
+  .Menu-Horizontal {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 0;
+    gap: 0;
+    border-top: 1px solid #ddd;
+    z-index: 1500;
+  }
+
+  /* Cuando está activo (al presionar el botón) */
+  .Menu-Horizontal.active {
+    display: flex;
+  }
+
+  .Menu-Horizontal li {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 1px solid #ddd;
+  }
+
+  /* Submenú */
+  .Menu-Vertical {
+    background-color: white;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #eee;
+    box-shadow: none;
+    border-radius: 0;
+    opacity: 1;
+    transform: none;
+  }
+
+  .buscador-general {
+    top: 6.8rem;
+  }
+}
