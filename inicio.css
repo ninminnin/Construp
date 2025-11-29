@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*botones*/
 .botones-container {
   margin-top: 12rem;
@@ -7,11 +8,13 @@
   margin-left: 6rem;
 }
 .btn-publicar {
+  font-family: "Montserrat", sans-serif;
   background-color: #2e7d32;
   color: white;
   border: 0.125rem solid #2e7d32;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  border-radius: 0.313rem;
   font-size: 1rem;
 }
 .btn-publicar:hover {
@@ -25,6 +28,8 @@
   border: 0.125rem solid #2e7d32;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  border-radius: 0.313rem;
+  font-family: "Montserrat", sans-serif;
   font-size: 1rem;
 }
 .btn-explorar:hover {
@@ -35,8 +40,10 @@
 .btn-recomen {
   background-color: #828382;
   color: white;
+  font-family: "Montserrat", sans-serif;
   border: 0.125rem solid #828382;
   padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
   cursor: pointer;
   font-size: 1rem;
 }
@@ -65,14 +72,17 @@
   text-align: center;
 }
 .div-mat-texto {
+  font-family: "Montserrat", sans-serif;
   flex: 1;
   cursor: pointer;
 }
 .div-mat-texto h3 {
+  font-family: "Montserrat", sans-serif;
   color: black;
   margin-bottom: 1.875rem;
 }
 .div-tnd-texto p {
+  font-family: "Montserrat", sans-serif;
   color: black;
   line-height: 1.5;
   text-align: justify;
@@ -88,12 +98,14 @@
   cursor: pointer;
 }
 .btn-contactar {
+  font-family: "Montserrat", sans-serif;
   margin-top: 1rem;
   background-color: orange;
   color: white;
   border: 0.125rem solid orange;
   padding: 0.625rem 1.25rem;
   cursor: pointer;
+  border-radius: 0.313rem;
 }
 
 .btn-contactar:hover {
