@@ -1,1 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Construp | Iniciar Sesión</title>
+  <link rel="stylesheet" href="login.css" />
+</head>
 
+<body>
+  <section class="contenedor-login">
+    <div class="fondo-superior"></div>
+    <div class="fondo-inferior"></div>
+
+    <div class="caja-login">
+      <img
+        height="220"
+        width="250"
+        src="logo/construp.jpg"
+        alt="Construp"
+        class="logo"
+      />
+
+      <form onsubmit="return validarLogin(event)">
+        <label class="etiqueta-texto">Usuario:</label>
+        <div class="grupo-input">
+          <input type="text" id="usuario" placeholder="Username" required />
+        </div>
+
+        <label class="etiqueta-texto">Contraseña (construp):</label>
+        <div class="grupo-input">
+          <input type="password" id="password" placeholder="Contraseña" required />
+        </div>
+
+        <a href="#" class="olvido-contrasena">¿Olvidaste tu contraseña?</a>
+
+        <button type="submit" class="boton-login">
+          <strong>Iniciar sesión</strong>
+        </button>
+      </form>
+
+      <p class="otro-metodo">Otras formas de iniciar sesión</p>
+
+      <div class="redes-sociales">
+        <a href="#">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+            alt="Facebook"
+            class="social-icon"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+            alt="Gmail"
+            class="social-icon"
+          />
+        </a>
+
+        <a href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+            alt="Instagram"
+            class="social-icon"
+          />
+        </a>
+      </div>
+
+      <a href="#" class="registrarse">Registrarse por primera vez</a>
+      <a href="#" class="contacto">Contáctanos</a>
+    </div>
+  </section>
+
+  <script src="login.js"></script>
+</body>
+</html>
