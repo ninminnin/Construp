@@ -1,1 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Construp | Home</title>
+    <link rel="stylesheet" href="topheader.css" />
+    <link rel="stylesheet" href="menu-hamburguesa.css" />
+    <link rel="stylesheet" href="inicio.css" />
+    <link rel="stylesheet" href="publicaciones.css" />
+    <link rel="stylesheet" href="favoritos.css" />
+    <link rel="stylesheet" href="compras.css" />
+    <link rel="stylesheet" href="perfil.css" />
+    <link rel="stylesheet" href="pie.css" />
+  </head>
+  <body>
+    <!--LOGO Y MENUS-->
+    <nav class="topheader">
+      <a href="inicio.html" class="logo">
+        <img
+          height="100"
+          width="120"
+          src="logo/construp.jpg"
+          alt="ocurrio un error"
+        />
+      </a>
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="menu-hamburguesa" aria-label="Abrir menú">
+        &#9776;
+        <!-- Ícono de hamburguesa -->
+      </button>
+      <ul class="Menu-Horizontal">
+        <li><a href="inicio.html">Inicio</a></li>
+        <li><a href="publicaciones.html">Mis publicaciones</a></li>
+        <li><a href="favoritos.html">Lista de deseos</a></li>
+        <li><a href="compras.html">Mis compras</a></li>
+        <li>
+          <a href="">Mi cuenta</a>
+          <ul class="Menu-Vertical">
+            <li><a href="perfil.html">Perfil</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <nav class="buscador-general">
+      <div class="barra">
+        <input type="text" placeholder="Busca en Construp" />
+        <button class="filter-btn">
+          <img
+            src="https://icons.veryicon.com/png/o/miscellaneous/alicloud-official-website/filter-32.png"
+            alt="filtro"
+          />
+        </button>
+      </div>
+    </nav>
+    
+    <!-- PIE DE PAGINA -->
+    <section id="footer">
+      <footer class="footer">
+        <div class="footer-container">
+          <!--nombre de sitio -->
+          <div class="footer-column">
+            <h4>Acerca de</h4>
+            <p>Construp</p>
+            <small>© 2025 Todos los derechos reservados</small>
+          </div>
+          <!--tutoriales -->
+          <div class="footer-column">
+            <h4>Ayuda</h4>
+            <ul>
+              <li>Comprar</li>
+              <li>Vender</li>
+            </ul>
+          </div>
+          <!-- Enlaces legales -->
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <!-- Dentro de href llama a un documento pdf con la Protección de datos-->
+            <a href="doc/obtenerDocumento.pdf">Protección de Datos</a>
+          </div>
+          <!--Promociones -->
+          <div class="footer-column">
+            <h4>Temporada</h4>
+            <p>Black Friday</p>
+          </div>
+          <!-- Redes sociales con íconos personalizados -->
+          <div class="footer-social">
+            <h4>Síguenos</h4>
+            <a href="#"
+              ><img
+                src="https://cdn-icons-png.flaticon.com/512/145/145802.png"
+                alt="Facebook"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg"
+                alt="Instagram"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/cc/X_icon.svg"
+                alt="X"
+                class="social-icon"
+            /></a>
+            <a href="#"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+                alt="LinkdIn"
+                class="social-icon"
+            /></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="menu-hamburguesa.js"></script>
+  </body>
+</html>
 
