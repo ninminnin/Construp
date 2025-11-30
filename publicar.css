@@ -1,13 +1,6 @@
 /* ====== FUENTE GENERAL ====== */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*TITULO PUBLICAR :)*/
-
-.publicar-container {
-  padding: 2rem 3rem;
-  margin-top: 10rem;
-  font-family: "Montserrat", sans-serif;
-}
-
 .titulo-publicar {
   padding: 2rem 3rem;
   color: white;
@@ -23,56 +16,58 @@
   margin-bottom: 0rem;
 }
 
-/* =========================
-   FORMULARIO
-   ========================= */
-.form-publicar {
-  margin-top:5rem;
+.seccion-publicar {
+  padding: 3rem 3rem;
+  font-family: "Montserrat", sans-serif;
+}
+/*FORM*/
+.seccion-formulario {
+  border: 2px solid green;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 75%;
+  margin-left: 3rem;
+  background: white;
+}
+.formulario-publicar {
   display: flex;
   flex-direction: column;
-  gap: rem;
-  width: 90%;
-  margin-left: 3rem;
-   font-family: "Montserrat", sans-serif;
+  gap: 1.8rem;
 }
-
 .campo label {
   font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  margin-bottom: 0.3rem;
+  display: block;
 }
-
-.campo input {
-  padding: 0.6rem;
-  border: 1px solid #ccc;
-  border-radius: 0.5rem;
-  width: 100%;
+.campo input,
+.campo select {
+  padding: 0.5rem;
+  border: 1px solid #fafafa;
+  border-radius: 0.4rem;
   font-family: "Montserrat", sans-serif;
   background: #fafafa;
+  width: 80%;
 }
-
-/* 2 en línea */
-.campo.duo {
+.fila-3 {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
-.campo.duo div {
-  flex: 1;
+.fila-3 section input {
+  width: 75%;
 }
 
-/* 3 en línea */
-.campo.trio {
+.fila-2 {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
-.campo.trio div {
-  flex: 1;
+.fila-2 section input {
+  width: 75%;
 }
 
-/* =========================
-   IMÁGENES
-   ========================= */
+
+/*IMG */
 .imagenes-section {
   margin-left: 3rem;
   margin-top: 2rem;
@@ -86,8 +81,8 @@
 }
 
 .btn-plus {
-  width: 8rem;
-  height: 8rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 0.7rem;
   border: none;
   background: #e6e6e6;
@@ -95,21 +90,20 @@
   cursor: pointer;
 }
 
-/* =========================
-   ARCHIVOS ADJUNTOS
-   ========================= */
-.archivos {
+/*ARCHIVOS*/
+.seccion-archivos {
   margin-left: 3rem;
   margin-top: 3rem;
   font-family: "Montserrat", sans-serif;
 }
 
-.archivos-input {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+.seccion-archivos select {
+  padding: 0.5rem;
+  border: 2px solid green; 
+  border-radius: 0.4rem;
+  width: 50%;            
+  background: #fafafa;
 }
-
 .btn-add-file {
   background-color: green;
   color: white;
@@ -121,7 +115,7 @@
 
 
 .contenedor-publicar {
-  display: flex;
+  text-align: center;
   justify-content: center;
   margin: 3rem 0;
 }
