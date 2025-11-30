@@ -17,7 +17,7 @@
 }
 
 .seccion-publicar {
-  padding: 3rem 3rem;
+  padding: 2rem 3rem;
   font-family: "Montserrat", sans-serif;
 }
 /*FORM*/
@@ -26,12 +26,10 @@
   background: white;
   padding: 2rem;
   border-radius: 0.6rem;
-  background: white;
   margin: 2rem auto;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  max-width: 79rem;
-  margin-left:5rem;
+  max-width: 75rem;
 }
 .formulario-publicar {
   display: flex;
@@ -50,7 +48,7 @@
   border-radius: 0.4rem;
   font-family: "Montserrat", sans-serif;
   background: #fafafa;
-  width: 80%;
+  width: 60%;
 }
 .fila-3 {
   display: flex;
@@ -58,7 +56,7 @@
 }
 
 .fila-3 section input {
-  width: 75%;
+  width: 73%;
 }
 
 .fila-2 {
@@ -67,21 +65,21 @@
 }
 
 .fila-2 section input {
-  width: 75%;
+  width: 73%;
 }
 
 
 /*IMG */
 .imagenes-section {
-  margin-left: 3rem;
-  margin-top: 2rem;
+  margin:3rem auto;
+  max-width: 75rem;
   font-family: "Montserrat", sans-serif;
 }
 
 .imagenes-grid {
   display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .btn-plus {
@@ -96,8 +94,8 @@
 
 /*ARCHIVOS*/
 .seccion-archivos {
-  margin-left: 3rem;
-  margin-top: 3rem;
+  margin:3rem auto;
+  max-width: 75rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -105,7 +103,7 @@
   padding: 0.5rem;
   border: 2px solid green; 
   border-radius: 0.4rem;
-  width: 50%;            
+  width: 60%;            
   background: #fafafa;
 }
 .btn-add-file {
