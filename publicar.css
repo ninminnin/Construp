@@ -193,9 +193,13 @@
     padding-left: 0.2rem;
   }
 
-  .campo input,
+  .campo input{
+    width: 90%;
+    padding: 0.7rem;
+    font-size: 1rem;
+  }
   .campo select {
-    width: 80%;
+    width: 100%;
     padding: 0.7rem;
     font-size: 1rem;
   }
