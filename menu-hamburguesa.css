@@ -55,7 +55,10 @@
     background-color: orange;
     color: white;
   }
-
+  .Menu-Horizontal li:hover a {
+    background-color: orange;
+    color: white;
+}
   /* Submenú */
   .Menu-Vertical {
     background-color: white;
