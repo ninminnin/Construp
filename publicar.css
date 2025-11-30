@@ -22,12 +22,15 @@
 }
 /*FORM*/
 .seccion-formulario {
-  border: 2px solid green;
-  padding: 2rem;
-  border-radius: 1rem;
-  width: 75%;
-  margin-left: 3rem;
+  border: 3px solid green;
   background: white;
+  padding: 2rem;
+  border-radius: 0.6rem;
+  background: white;
+  margin: 2rem auto;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  max-width: 79rem;
 }
 .formulario-publicar {
   display: flex;
