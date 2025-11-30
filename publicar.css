@@ -33,7 +33,7 @@
   margin: 2rem auto;
   width: 100%;
   font-family: "Montserrat", sans-serif;
-  max-width: 76.5rem;
+  max-width: 76rem;
 }
 .formulario-publicar {
   display: flex;
@@ -76,7 +76,7 @@
 /*IMG */
 .imagenes-section {
   margin:3rem auto;
-  max-width: 76.5rem;
+  max-width: 76rem;
   font-family: "Montserrat", sans-serif;
 }
 
