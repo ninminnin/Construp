@@ -177,7 +177,7 @@
 
   .seccion-formulario {
     max-width: 100%;
-    padding: 1.3rem;
+    padding: 1.5rem 1.2rem;
     box-sizing: border-box;
   }
 
@@ -188,6 +188,9 @@
   .campo input,
   .campo select {
     width: 100%;
+    max-width: 100%;
+    padding: 0.7rem;
+    font-size: 1rem;
   }
 
   .fila-3 {
@@ -206,7 +209,9 @@
   .fila-2 section input {
     width: 100%;
   }
-
+  .campo span {
+    margin-left: 0.2rem;
+  }
   .imagenes-section {
     max-width: 100%;
     margin: 2rem auto;
@@ -227,7 +232,8 @@
 
   .seccion-archivos {
     max-width: 100%;
-    margin: 2rem auto;
+    margin: 2rem 0 auto;
+    padding: 0 1rem;
   }
 
   .seccion-archivos .campo {
@@ -238,11 +244,13 @@
 
   .seccion-archivos select {
     width: 100%;
+    padding: 0.7rem;
   }
 
   .btn-add-file {
     width: 100%;
     text-align: center;
+    padding: 0.8rem;
   }
 
   .btn-publicar-final {
