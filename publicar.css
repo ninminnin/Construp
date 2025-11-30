@@ -184,11 +184,13 @@
   .formulario-publicar {
     gap: 1.2rem;
   }
+  .campo label {
+    padding-left: 0.2rem;
+  }
 
   .campo input,
   .campo select {
-    width: 100%;
-    max-width: 100%;
+    width: 85%;
     padding: 0.7rem;
     font-size: 1rem;
   }
@@ -199,7 +201,7 @@
   }
 
   .fila-3 section input {
-    width: 100%;
+    width: 70%;
   }
   .fila-2 {
     flex-direction: column;
@@ -207,10 +209,10 @@
   }
 
   .fila-2 section input {
-    width: 100%;
+    width: 70%;
   }
   .campo span {
-    margin-left: 0.2rem;
+    margin-left: 0.4rem;
   }
   .imagenes-section {
     max-width: 100%;
