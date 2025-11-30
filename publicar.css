@@ -31,6 +31,7 @@
   width: 100%;
   font-family: "Montserrat", sans-serif;
   max-width: 79rem;
+  margin-left:5rem;
 }
 .formulario-publicar {
   display: flex;
