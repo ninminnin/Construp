@@ -1,13 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-/* Footer general */
+
 .footer {
-  background-color: #424242; /* Fondo oscuro para contraste */
+  background-color: #424242; 
   color: white;
   padding: 2.5rem 1rem;
   font-family: "Roboto", sans-serif;
 }
 
-/* Contenedor flexible para 3 columnas */
+
 .footer-container {
   font-family: "Montserrat", sans-serif;
   display: flex;
@@ -74,7 +74,7 @@ footer li {
   transform: scale(1.2);
 }
 
-/* Responsive para pantallas pequeñas */
+/* ResponsiveEEEE */
 @media (max-width: 768px) {
   .footer-container {
     flex-direction: column;
@@ -86,4 +86,5 @@ footer li {
     margin-bottom: 0.5rem;
   }
 }
+
 
