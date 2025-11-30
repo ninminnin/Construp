@@ -99,6 +99,7 @@
 /*ARCHIVOS*/
 .seccion-archivos {
   margin:3rem auto;
+  margin-top: -2rem;
   max-width: 76rem;
   font-family: "Montserrat", sans-serif;
 }
