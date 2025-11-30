@@ -11,16 +11,20 @@
 
 /* RESPONSIVEEee */
 @media (max-width: 768px) {
+
   /* Topheader más compacto */
   .topheader {
     padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   /* Mostrar botón hamburguesa */
   .menu-hamburguesa {
     display: block;
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: 2rem;
   }
 
   /* Menú horizontal se vuelve vertical */
@@ -64,9 +68,13 @@
 
   .buscador-general {
     top: 6.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: -0.4rem;
   }
 
   .icono-filtro {
     margin-left: 1rem;
+    margin-right: 3rem;
   }
 }
