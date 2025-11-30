@@ -99,8 +99,13 @@
 /*ARCHIVOS*/
 .seccion-archivos {
   margin:3rem auto;
-  max-width: 75rem;
+  max-width: 76rem;
   font-family: "Montserrat", sans-serif;
+}
+.seccion-archivos .campo {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem; 
 }
 
 .seccion-archivos select {
