@@ -20,6 +20,10 @@
   padding: 2rem 3rem;
   font-family: "Montserrat", sans-serif;
 }
+.seccion-publicar p{
+  max-width: 76.5rem;
+  margin: 2rem auto;
+}
 /*FORM*/
 .seccion-formulario {
   border: 3px solid green;
