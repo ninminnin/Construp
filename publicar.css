@@ -1,7 +1,14 @@
 /* ====== FUENTE GENERAL ====== */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /*TITULO PUBLICAR :)*/
+
 .publicar-container {
+  padding: 2rem 3rem;
+  margin-top: 10rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+.titulo-publicar {
   padding: 2rem 3rem;
   color: white;
   background-color: green;
