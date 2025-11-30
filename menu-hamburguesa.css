@@ -9,10 +9,9 @@
   z-index: 2000;
 }
 
-/* RESPONSIVEEee */
+/* RESPONSIVE */
 @media (max-width: 768px) {
 
-  /* Topheader más compacto */
   .topheader {
     padding: 0.5rem 1rem;
     display: flex;
@@ -20,14 +19,12 @@
     justify-content: space-between;
   }
 
-  /* Mostrar botón hamburguesa */
   .menu-hamburguesa {
     display: block;
     margin-left: auto;
     margin-right: 2rem;
   }
 
-  /* Menú horizontal se vuelve vertical */
   .Menu-Horizontal {
     display: none;
     flex-direction: column;
@@ -42,7 +39,6 @@
     z-index: 1500;
   }
 
-  /* Cuando está activo (al presionar el botón) */
   .Menu-Horizontal.active {
     display: flex;
   }
@@ -52,6 +48,12 @@
     text-align: center;
     padding: 1rem 0;
     border-bottom: 1px solid #ddd;
+    display: block;
+  }
+
+  .Menu-Horizontal li:hover {
+    background-color: orange;
+    color: white;
   }
 
   /* Submenú */
@@ -60,10 +62,8 @@
     position: relative;
     width: 100%;
     border-top: 1px solid #eee;
-    box-shadow: none;
-    border-radius: 0;
-    opacity: 1;
     transform: none;
+    margin-top: 0.8rem;
   }
 
   .buscador-general {
@@ -73,8 +73,12 @@
     margin-left: -0.4rem;
   }
 
+  .barra input {
+    max-width: 74.5%;
+  }
+
   .icono-filtro {
     margin-left: 1rem;
-    margin-right: 3rem;
+    margin-right: 1rem;
   }
 }
