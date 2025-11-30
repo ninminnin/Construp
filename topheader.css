@@ -22,14 +22,12 @@
   gap: 10rem;
   font-family: "Montserrat", sans-serif;
 }
-.Menu-Horizontal li {
-  padding: 0.4rem 0.8rem;
-}
+
 .Menu-Horizontal li a {
   color: black;
   display: block;
   text-decoration: none;
-  padding: 0;
+  padding: 0.4rem 0.8rem;
   border-radius: 0.4rem;
 }
 
