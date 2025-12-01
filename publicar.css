@@ -61,12 +61,25 @@
   gap: 0.4rem;
 }
 
-/* Label arriba */
-.fila-3 section label,
-.fila-2 section label {
-  display: block;
-  width: 100%;
+.fila-3 {
+  display: flex;
+  gap: 2rem; 
 }
+
+.fila-3 section input {
+  width: 73%; 
+}
+
+.fila-2 {
+  display: flex;
+  gap: 2rem;
+}
+
+.fila-2 section input {
+  width: 73%;
+}
+
+
 
 /*IMG */
 .seccion-imagenes {
@@ -199,23 +212,19 @@
     font-size: 1rem;
   }
 
-  .fila-3 {
-    flex-direction: column;
-    gap: 0.8rem;
-  }
+  .fila-3 section,
+.fila-2 section {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
 
-  .fila-3 section input {
-    width: 80%;
-  }
-
-  .fila-2 {
-    flex-direction: column;
-    gap: 0.8rem;
-  }
-
-  .fila-2 section input {
-    width: 80%;
-  }
+/* Label arriba */
+.fila-3 section label,
+.fila-2 section label {
+  display: block;
+  width: 100%;
+}
 
   .campo span {
     margin-left: 0.6rem;
