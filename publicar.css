@@ -213,15 +213,16 @@
   }
 
   .fila-3 section,
-.fila-2 section {
+  .fila-2 section {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-start;
   gap: 0.4rem;
 }
 
-/* Label arriba */
-.fila-3 section label,
-.fila-2 section label {
+
+  .fila-3 section label,
+  .fila-2 section label {
   display: block;
   width: 100%;
 }
