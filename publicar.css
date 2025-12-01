@@ -79,7 +79,15 @@
   width: 73%;
 }
 
-
+.peso-grupo {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  width: 100%;
+}
+.peso-grupo input {
+  width: 90%;
+}
 
 /*IMG */
 .seccion-imagenes {
