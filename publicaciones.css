@@ -148,7 +148,9 @@
     margin-bottom: 0.5rem;
     font-size: 0.9rem;
   }
-
+  .menu-opciones li:hover {
+  background-color: orange;
+}
   .publicacion-contenido p {
     font-size: 0.95rem;
     line-height: 1.3;
