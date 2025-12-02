@@ -83,6 +83,8 @@
 
 .menu-opciones li:hover {
   background-color: orange;
+  color: white;
+  font-weight: bold;
 }
 
 
@@ -128,6 +130,10 @@
     top: 0.5rem;
     right: 0.188rem;
     font-size: 1.7rem;
+  }
+
+  .menu-btn{
+    font-size:1.5rem;
   }
 
   .publicacion-contenido {
