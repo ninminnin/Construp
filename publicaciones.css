@@ -47,12 +47,45 @@
   border-radius: 0.313rem;
 }
 
-.publicacion-menu {
-  margin-left: auto;
-  font-size: 2rem;
-  cursor: pointer;
-  margin-top: -0.49rem;
+.menu-container {
+  position: relative;
+  display: inline-block;
 }
+
+.menu-btn {
+  background: none;
+  border: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+}
+
+.menu-opciones {
+  position: absolute;
+  right: 0;
+  top: 2rem;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 0.4rem;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  list-style: none;
+  padding: 0.5rem 0;
+  display: none;
+  min-width: 110px;
+  z-index: 20;
+}
+
+.menu-opciones li {
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+.menu-opciones li:hover {
+  background-color: orange;
+}
+
+
 .publicacion-contenido h3 {
   font-size: 1.5rem;
 }
