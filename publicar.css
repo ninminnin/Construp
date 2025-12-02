@@ -235,10 +235,9 @@
 
   .fila-3 section span,
   .fila-2 section span {
-  position: relative;
-  top: -2.4rem;   
-  left: calc(100% - 2.5rem);
-  display: inline-block;
+  position: absolute;
+  right: 0;           
+  top: 38px;         
   white-space: nowrap;
 }
 
