@@ -201,7 +201,7 @@
   }
 
   .campo {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
   }
 
@@ -220,26 +220,32 @@
     font-size: 1rem;
   }
 
-  .fila-3 section{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.4rem;
-  
-}
+  .fila-3 section,
   .fila-2 section {
   display: flex;
-  align-items: center;
-  gap: 0.4rem;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+  
+  .fila-3 section input,
+  .fila-2 section input {
+  width: 100%; 
+  display: inline-block;
 }
 
-  .fila-3 section label{
-  display: block;
-  width: 100%;
+  .fila-3 section span,
+  .fila-2 section span {
+  position: relative;
+  top: -2.4rem;   
+  left: calc(100% - 2.5rem);
+  display: inline-block;
+  white-space: nowrap;
 }
-  .fila-2 section label {
-  display: block;
-  width: 100%;
+
+  .fila-3 section,
+  .fila-2 section {
+  position: relative;
+  padding-bottom: 1.2rem;
 }
 
   .campo span {
