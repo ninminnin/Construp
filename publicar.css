@@ -7,7 +7,18 @@
   background-color: green;
   font-family: "Montserrat", sans-serif;
 }
-
+.seccion-formulario,
+.formulario-publicar,
+.campo,
+.ancho,
+.alto,
+.largo,
+.cantidad,
+.precio,
+.input-span {
+  text-align: left !important;
+  align-items: flex-start !important;
+}
 .titulo-publicar h2 {
   font-size: 2rem;
   font-weight: bold;
