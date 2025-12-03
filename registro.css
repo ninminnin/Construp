@@ -152,17 +152,67 @@
   background: gray;
 }
 
-/* ===== RESPONSIVE ===== */
+/*RESPONSIVEEEEEEEEEEE:))*/
 @media (max-width: 600px) {
+
+  /* Oculta fondos igual que en login */
   .registro-fondo-superior,
   .registro-fondo-inferior {
     display: none;
   }
 
+  /* Contenedor principal */
   .registro-container {
     width: 100%;
-    margin-top: 0;
+    max-width: 100%;
     padding: 1.5rem;
+    margin-top: 2rem;  
     border-radius: 0;
+    background: white;
+    box-shadow: none;
+    min-height: 100vh;   /* evita scroll */
+    overflow: hidden;
+  }
+
+  /* Caja interna del formulario (equivalente a .caja-login) */
+  .registro-form {
+    width: 100%;
+    max-width: 100%;
+    padding: 0; 
+  }
+
+  /* Etiquetas */
+  .etiqueta-texto {
+    font-size: 0.9rem;
+  }
+
+  /* Inputs */
+  .grupo-input {
+    padding: 0.8rem 1rem;
+  }
+
+  .grupo-input input,
+  .grupo-input select {
+    font-size: 0.95rem;
+    padding: 0.3rem;
+  }
+
+  /* Botón */
+  .boton-registrarse {
+    padding: 0.9rem;
+    font-size: 1rem;
+    width: 100%;
+  }
+
+  /* Términos y condiciones (muy importante porque causa desbordes) */
+  .terminos-condiciones {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.7rem;
+    font-size: 0.85rem;
+  }
+
+  .terminos-condiciones input[type="checkbox"] {
+    margin-top: 0.25rem;
   }
 }
