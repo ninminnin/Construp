@@ -20,6 +20,7 @@
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .saludo-mobile {
+    font-family: "Montserrat", sans-serif;
     display: block;
     display: inline-block;
     font-size: 1rem;
