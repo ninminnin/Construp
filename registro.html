@@ -1,99 +1,99 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Construp | Registro</title>
-  <link rel="stylesheet" href="registro.css"/>
-</head>
-
-<body>
-
-  <!-- Fondos -->
-  <section class="registro-fondo-superior"></section>
-  <section class="registro-fondo-inferior"></section>
-
-  <!-- Contenedor principal -->
-  <section class="registro-container">
-
-    <!-- LOGO + BARRA DE ESTADO -->
-    <section class="registro-header">
-      <img src="logo/construp.jpg" class="logo-registro">
-      <div class="linea"></div>
-    </section>
-
-    <!-- QUIÉN SE REGISTRA -->
-    <section class="tipo-persona">
-      <p>¿Quién desea registrarse?</p>
-
-      <label class="radio-label">
-        <input type="radio" name="tipo" value="juridica" checked>
-        Persona jurídica
-      </label>
-
-      <label class="radio-label">
-        <input type="radio" name="tipo" value="natural">
-        Persona natural
-      </label>
-    </section>
-
-    <!-- FORMULARIOS -->
-    <section class="form-scroll">
-
-      <!-- JURÍDICA -->
-      <section id="form-juridica" class="form-section">
-        <label>Nombre de la empresa:</label>
-        <input type="text" placeholder="Nombre">
-
-        <label>RUC</label>
-        <input type="tel" placeholder="RUC" pattern="[0-9]{9}" maxlength="9">
-
-        <label>Correo electrónico:</label>
-        <input type="email" placeholder="Email">
-
-        <label>Contraseña:</label>
-        <input type="password" placeholder="Contraseña">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Construp | Registro</title>
+      <link rel="stylesheet" href="registro.css"/>
+    </head>
+    
+    <body>
+    
+      <!-- Fondos -->
+      <section class="registro-fondo-superior"></section>
+      <section class="registro-fondo-inferior"></section>
+    
+      <!-- Contenedor principal -->
+      <section class="registro-container">
+    
+        <!-- LOGO + BARRA DE ESTADO -->
+        <section class="registro-header">
+          <img src="logo/construp.jpg" class="logo-registro">
+          <div class="linea"></div>
+        </section>
+    
+        <!-- QUIÉN SE REGISTRA -->
+        <section class="tipo-persona">
+          <p>¿Quién desea registrarse?</p>
+    
+          <label class="radio-label">
+            <input type="radio" name="tipo" value="juridica" checked>
+            Persona jurídica
+          </label>
+    
+          <label class="radio-label">
+            <input type="radio" name="tipo" value="natural">
+            Persona natural
+          </label>
+        </section>
+    
+        <!-- FORMULARIOS -->
+        <section class="form-scroll">
+    
+          <!-- JURÍDICA -->
+          <section id="form-juridica" class="form-section">
+            <label>Nombre de la empresa:</label>
+            <input type="text" placeholder="Nombre">
+    
+            <label>RUC</label>
+            <input type="tel" placeholder="RUC" pattern="[0-9]{9}" maxlength="9">
+    
+            <label>Correo electrónico:</label>
+            <input type="email" placeholder="Email">
+    
+            <label>Contraseña:</label>
+            <input type="password" placeholder="Contraseña">
+          </section>
+    
+          <!-- NATURAL -->
+          <section id="form-natural" class="form-section oculto">
+            <label>Nombre:</label>
+            <input type="text" placeholder="Nombre">
+    
+            <label>Apellido:</label>
+            <input type="text" placeholder="Apellido">
+    
+            <label>Fecha de nacimiento:</label>
+            <input type="date">
+    
+            <label>Celular:</label>
+            <input type="tel" placeholder="Celular" pattern="[0-9]{9}" maxlength="9">
+    
+            <label>Correo electrónico:</label>
+            <input type="email" placeholder="Email">
+    
+            <label>Contraseña:</label>
+            <input type="password" placeholder="Contraseña">
+          </section>
+    
+        </section>
+    
+        <!-- TÉRMINOS -->
+        <label class="terminos">
+          <input type="checkbox">
+          Acepto los Términos y condiciones
+        </label>
+    
+        <!-- BOTÓN -->
+        <section class="registro-boton">
+          <button><strong>Registrarse</strong></button>
+        </section>
+    
       </section>
-
-      <!-- NATURAL -->
-      <section id="form-natural" class="form-section oculto">
-        <label>Nombre:</label>
-        <input type="text" placeholder="Nombre">
-
-        <label>Apellido:</label>
-        <input type="text" placeholder="Apellido">
-
-        <label>Fecha de nacimiento:</label>
-        <input type="date">
-
-        <label>Celular:</label>
-        <input type="tel" placeholder="Celular" pattern="[0-9]{9}" maxlength="9">
-
-        <label>Correo electrónico:</label>
-        <input type="email" placeholder="Email">
-
-        <label>Contraseña:</label>
-        <input type="password" placeholder="Contraseña">
-      </section>
-
-    </section>
-
-    <!-- TÉRMINOS -->
-    <label class="terminos">
-      <input type="checkbox">
-      Acepto los Términos y condiciones
-    </label>
-
-    <!-- BOTÓN -->
-    <section class="registro-boton">
-      <button><strong>Registrarse</strong></button>
-    </section>
-
-  </section>
-
-  <!-- Scripts -->
-  <script src="persona.js"></script>
-  <script src="barra-estado.js"></script>
-
-</body>
+    
+      <!-- Scripts -->
+      <script src="persona.js"></script>
+      <script src="barra-estado.js"></script>
+    
+    </body>
 </html>
