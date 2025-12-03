@@ -242,14 +242,7 @@
   .precio  input {
   width: 100%; 
 }
-  .ancho ,
-  .alto ,
-  .largo ,
-  .cantidad ,
-  .precio  {
-  position: relative;
-  padding-bottom: 1.2rem;
-}
+
   .input-span {
   display: flex;
   align-items: center;
