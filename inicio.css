@@ -107,6 +107,35 @@
   color: white;
   border: 0.125rem solid #828382;
 }
+.titulo-material {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+/* BTON del corazón */
+.btn-corazon {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #aaa;
+  transition: 0.2s;
+  padding: 0;
+}
+
+.btn-corazon:hover {
+  color: green;
+  transform: scale(1.15);
+}
+
+/*  marcado */
+.btn-corazon.favorito {
+  color: green;
+}
 
 /*RESPONSIVEE*/
 @media (max-width: 768px) {
@@ -146,8 +175,13 @@
     padding: 2rem 1rem;
   }
 
+  .btn-corazon {
+  font-size: 1.6rem; 
+  }
+
   .div-tnd-texto p {
     text-align: left;
   }
 }
+
 
