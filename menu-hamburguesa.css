@@ -8,15 +8,25 @@
   margin-right: 1rem;
   z-index: 2000;
 }
-
+/*oculto en desktop*/
+.saludo-mobile {
+  display: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 1rem;
+}
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .saludo-mobile {
+    display: block;
+  }
 
   .topheader {
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .menu-hamburguesa {
