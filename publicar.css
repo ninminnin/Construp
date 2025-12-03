@@ -220,19 +220,28 @@
     font-size: 1rem;
   }
 
-  .fila-3 section,
-  .fila-2 section {
+  .ancho section,
+  .alto section,
+  .largo section,
+  .cantidad section,
+  .precio section{
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
   
-  .fila-3 section input,
-  .fila-2 section input {
+  .ancho section input,
+  .alto section input,
+  .largo section input,
+  .cantidad section input,
+  .precio section input {
   width: 100%; 
 }
-  .fila-3 section,
-  .fila-2 section {
+  .ancho section,
+  .alto section,
+  .largo section,
+  .cantidad section,
+  .precio section {
   position: relative;
   padding-bottom: 1.2rem;
 }
