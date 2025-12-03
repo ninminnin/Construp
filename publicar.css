@@ -227,7 +227,9 @@
 
   .fila-3,
   .fila-2 {
-  display: block !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 1.2rem;
 }
 
   .ancho ,
@@ -235,11 +237,20 @@
   .largo ,
   .cantidad ,
   .precio {
-  padding-left: 0.2rem
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
 }
+  .ancho label,
+  .alto label,
+  .largo label,
+  .cantidad label,
+  .precio label {
+    text-align: left !important;
+    font-weight: 600;
+    margin-left: 0.3rem;
+  }
   
   .ancho  input,
   .alto  input,
@@ -249,21 +260,23 @@
   width: 100%; 
   margin-bottom: 0.4rem;
 }
-
-  .input-span {
+.input-span {
   display: flex;
-  align-items: right;
+  align-items: center;
   gap: 0.5rem;
-  width: 100%;
 }
 
   .input-span input {
   width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
 }
 
   .input-span span {
-  position: static;
+  
   font-weight: 600;
+  white-space: nowrap; /* NO SE SUBE NI BAJA */
+  margin-right: 0.3rem;
 }
   .imagenes-section {
     max-width: 100%;
