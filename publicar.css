@@ -221,28 +221,28 @@
     font-size: 1rem;
   }
 
-  .ancho section,
-  .alto section,
-  .largo section,
-  .cantidad section,
-  .precio section{
+  .ancho ,
+  .alto ,
+  .largo ,
+  .cantidad ,
+  .precio {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
 }
   
-  .ancho section input,
-  .alto section input,
-  .largo section input,
-  .cantidad section input,
-  .precio section input {
+  .ancho  input,
+  .alto  input,
+  .largo  input,
+  .cantidad  input,
+  .precio  input {
   width: 100%; 
 }
-  .ancho section,
-  .alto section,
-  .largo section,
-  .cantidad section,
-  .precio section {
+  .ancho ,
+  .alto ,
+  .largo ,
+  .cantidad ,
+  .precio  {
   position: relative;
   padding-bottom: 1.2rem;
 }
