@@ -11,17 +11,18 @@
 .footer-container {
   font-family: "Montserrat", sans-serif;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-start;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
-  gap: 3rem;
+  gap: 4rem;
+  padding: 0 2rem;
 }
 
 /* subs */
 .footer-column {
   list-style: none;
-  flex: 1;
+  flex: 0 0 auto;
   min-width: 200px;
   display: flex;
   flex-direction: column;
@@ -86,5 +87,6 @@ footer li {
     margin-bottom: 0.5rem;
   }
 }
+
 
 
