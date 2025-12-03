@@ -230,27 +230,27 @@
   .fila-3 section input,
   .fila-2 section input {
   width: 100%; 
-  display: inline-block;
 }
-
-  .fila-3 section span,
-  .fila-2 section span {
-  position: absolute;
-  right: 0;           
-  top: 38px;         
-  white-space: nowrap;
-}
-
   .fila-3 section,
   .fila-2 section {
   position: relative;
   padding-bottom: 1.2rem;
 }
+  .input-span {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
 
-  .campo span {
-    margin-left: 0.6rem;
-  }
+  .input-span input {
+  width: 100%;
+}
 
+  .input-span span {
+  position: static;
+  font-weight: 600;
+}
   .imagenes-section {
     max-width: 100%;
     margin: 2rem auto;
