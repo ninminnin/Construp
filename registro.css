@@ -7,7 +7,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 48vh; /* un poco menos */
+  height: 50vh; /* un poco menos */
   background: url("logo/fondo3.png");
   background-size: cover;
   background-position: center;
@@ -19,7 +19,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 52vh;
+  height: 50vh;
   background: #f7a658;
   z-index: 0;
 }
