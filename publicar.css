@@ -40,6 +40,10 @@
   flex-direction: column;
   gap: 1.8rem;
 }
+
+.fila-2 {
+  margin-bottom: 2rem; 
+}
 .campo label {
   margin.top: 0.3rem;
   font-weight: 600;
