@@ -225,6 +225,11 @@
     font-size: 1rem;
   }
 
+  .fila-3,
+  .fila-2 {
+  display: block !important;
+}
+
   .ancho ,
   .alto ,
   .largo ,
