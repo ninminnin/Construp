@@ -56,12 +56,10 @@
   overflow: hidden;
 }
 .linea::after {
-  width: var(--after-width, 0%);
-}
-.linea::after {
   content: "";
   display: block;
   height: 100%;
+  width: var(--progreso, 0%);
   width: 0%;
   background: orange;
   transition: width 0.3s ease;
