@@ -1,99 +1,95 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Construp | Registro</title>
-    <link rel="stylesheet" href="login.css" />
-    <link rel="stylesheet" href="registro.css" />
-  </head>
-  
-  <body>
-  
-    <section class="registro-fondo">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Construp | Registro</title>
+      <link rel="stylesheet" href="registro.css"/>
+    </head>
+    
+    <body>
+    
+      <section class="registro-fondo-superior"></section>
+      <section class="registro-fondo-inferior"></section>
+    
       <section class="registro-container">
-  
+    
         <!-- LOGO -->
         <section class="registro-header">
-          <img
-              height="220"
-              width="250"
-              src="logo/construp.jpg"
-              alt="Construp"
-              class="logo"
-          />
+          <img src="logo/construp.jpg" class="logo-registro">
+          <div class="linea"></div>
         </section>
-        <!-- TIPO DE PERSONA -->
+    
+        <!-- QUIÉN SE REGISTRA -->
         <section class="tipo-persona">
           <p>¿Quién desea registrarse?</p>
-  
-          <label>
+    
+          <label class="radio-label">
             <input type="radio" name="tipo" value="juridica" checked>
             Persona jurídica
           </label>
-  
-          <label>
+    
+          <label class="radio-label">
             <input type="radio" name="tipo" value="natural">
             Persona natural
           </label>
         </section>
-  
-        <!-- FORMULARIOS (solo uno visible según la selección) -->
+    
+        <!-- FORMULARIOS -->
         <section class="form-scroll">
-  
-          <!-- FORMULARIO PERSONA JURÍDICA -->
+    
+          <!-- JURÍDICA -->
           <section id="form-juridica" class="form-section">
-            <label>Nombre de la empresa:</label>
-            <input type="text">
-  
-            <label>RUC:</label>
-            <input type="text">
-  
+            <label>Nombre de la empresa: </label>
+            <input type="text" placeholder="A&C Constructora">
+    
+            <label>RUC</label>
+            <input type="text" placeholder="20345678925">
+    
             <label>Correo electrónico:</label>
-            <input type="email">
-  
+            <input type="email" placeholder="ACConstru@gmail.com">
+    
             <label>Contraseña:</label>
-            <input type="password">
+            <input type="password" placeholder="**********">
           </section>
-  
-          <!-- FORMULARIO PERSONA NATURAL -->
+    
+          <!-- NATURAL -->
           <section id="form-natural" class="form-section oculto">
             <label>Nombre:</label>
             <input type="text">
-  
+    
             <label>Apellido:</label>
             <input type="text">
-  
+    
             <label>Fecha de nacimiento:</label>
             <input type="date">
-  
-            <label>Número de celular:</label>
+    
+            <label>Celular:</label>
             <input type="text">
-  
+    
             <label>Correo electrónico:</label>
             <input type="email">
-  
+    
             <label>Contraseña:</label>
             <input type="password">
           </section>
-  
+    
         </section>
-  
-        <!-- TÉRMINOS + BOTÓN -->
+    
+        <!-- TÉRMINOS -->
+        <label class="terminos">
+          <input type="checkbox">
+          Acepto los Términos y condiciones
+        </label>
+    
+        <!-- BOTÓN -->
         <section class="registro-boton">
-  
-          <label class="terminos">
-            <input type="checkbox" id="acepto">
-            Acepto términos y condiciones
-          </label>
-  
           <button>Registrarse</button>
-  
         </section>
-  
+    
       </section>
-    </section>
+    
     <script src="persona.js"></script>
-    <script src="login.js"></script>
-  </body>
+    
+    </body>
 </html>
