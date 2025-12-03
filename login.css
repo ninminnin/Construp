@@ -12,24 +12,24 @@
 }
 
 .fondo-superior {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  height: 50%;
+  height: 50vh;
   background: url("logo/fondo3.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   z-index: 0;
 }
 
 .fondo-inferior {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 50%;
-  background-color: #f7a658;
+  height: 50vh;
+  background: #f7a658;
   z-index: 0;
 }
 
