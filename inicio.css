@@ -40,7 +40,7 @@
 .titulo-recomen {
   font-size: 1.4rem;
   font-weight: 600;
-  margin-top: 2rem;
+  margin-top: 5rem;
   margin-bottom: 1rem;
   margin-left: 6rem; 
   color: black; 
@@ -155,6 +155,10 @@
     text-align: center;
   }
 
+  .titulo-recomen {
+    text-align: center;
+    margin-left: 0;
+  }
   /* MATERIALES */
   .div-gral-mat {
     flex-direction: column;
@@ -183,5 +187,6 @@
     text-align: left;
   }
 }
+
 
 
