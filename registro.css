@@ -110,7 +110,10 @@
   color: white;
   font-size: 0.9rem;
 }
-
+.input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
 .form-section input::placeholder {
   color: #e9e9e9;
 }
