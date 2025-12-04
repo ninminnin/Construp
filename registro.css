@@ -161,17 +161,16 @@
     display: none;
   }
 
-  /* Caja principal compacta (igual login) */
   .registro-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    margin-top: 1rem;
-    padding: 1.3rem;
-    border-radius: 0;
-    box-shadow: none;
-    overflow: hidden;
-  }
+  width: 100%;
+  max-width: 100%;
+  padding: 1.5rem 1rem;
+  margin: 0 auto;
+  margin-top: 2rem;
+  border-radius: 0;
+  box-sizing: border-box; /* IMPORTANTE */
+  overflow: hidden;
+}
 
   /* Logo más pequeño */
   .logo-registro {
@@ -193,17 +192,16 @@
 
   /* CONTENEDOR DE INPUTS CON MENOS ALTURA */
   .form-scroll {
-    max-height: 23vh;   /* antes 33vh — este causaba scroll */
-    padding-right: 0.3rem;
-    margin-top: 0.3rem;
+  max-height: 55vh !important;
+  padding-right: 0.4rem;
   }
 
   /* Inputs más compactos */
   .form-section input {
-    padding: 0.6rem;
-    font-size: 0.85rem;
+  padding: 0.55rem;
+  font-size: 0.85rem;
+  border-radius: 1.2rem;
   }
-
   /* Terminos */
   .terminos {
     margin: 1rem 0;
@@ -215,4 +213,14 @@
     padding: 0.8rem;
     font-size: 0.9rem;
   }
+
+  .tipo-persona, 
+  .form-scroll {
+    padding-left: 0.2rem;
+  }
+  html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
 }
