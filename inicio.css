@@ -108,13 +108,10 @@
   border: 0.125rem solid #828382;
 }
 .titulo-material {
-  position: relative; 
-  width: 100%;
-  text-align: center;
+  position: relative;          /* El corazón se posicionará respecto al título */
+  text-align: center;          /* El h3 queda centrado como si estuviera solo */
   margin-bottom: 1rem;
-  justify-content: center;
-  padding-left: 2.5rem; 
-  padding: 2rem; 
+  padding: 1rem 0;
 }
 
 .titulo-material h3 {
@@ -126,21 +123,23 @@
 /* BTON del corazón */
 .btn-corazon {
   position: absolute;
-  right: 0.8rem;         /* Se pega al borde derecho */
-  top: 50%;         /* Centrado vertical */
-  transform: translateY(-50%);
+  left: 50%;                     /* Punto base: el centro del título */
+  transform: translateX(140%);   /* Lo movemos hacia la derecha */
+  top: 50%;
+  transform: translate(140%, -50%);
+
   background: none;
   border: none;
-  font-size: 1.6rem;
-  cursor: pointer;
+  font-size: 1.5rem;
   color: #aaa;
+  cursor: pointer;
   transition: 0.2s;
 }
 
 .btn-corazon:hover {
   color: green;
-  transform: translateY(-50%) scale(1.15);
-}
+  transform: translate(140%, -50%) scale(1.15);
+} 
 
 /*  marcado */
 .btn-corazon.favorito {
@@ -197,6 +196,7 @@
     text-align: left;
   }
 }
+
 
 
 
