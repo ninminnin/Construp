@@ -112,6 +112,7 @@
   width: 100%;
   text-align: center;
   margin-bottom: 1rem;
+  justify-content: center;
   padding: 0.3rem 2rem; 
 }
 
@@ -124,7 +125,7 @@
 /* BTON del corazón */
 .btn-corazon {
   position: absolute;
-  right: 0;         /* Se pega al borde derecho */
+  right: 0.8rem;         /* Se pega al borde derecho */
   top: 50%;         /* Centrado vertical */
   transform: translateY(-50%);
   background: none;
@@ -195,6 +196,7 @@
     text-align: left;
   }
 }
+
 
 
 
