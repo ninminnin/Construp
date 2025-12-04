@@ -159,11 +159,11 @@
     width: 100% ;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 1rem;
+    padding: 1rem 1.2rem;
     margin: 1.5rem auto;
     overflow: hidden;
   }
-
+ 
   .perfil-campo label {
     font-size: 1.1rem;
   }
