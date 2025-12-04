@@ -109,11 +109,13 @@
 }
 .titulo-material {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 0.5rem
   align-items: center;
   font-size: 1.3rem;
   margin-bottom: 1rem;
   width: 100%;
+  text-align: center;
 }
 
 /* BTON del corazón */
@@ -187,6 +189,7 @@
     text-align: left;
   }
 }
+
 
 
 
