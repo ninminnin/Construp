@@ -173,13 +173,13 @@
   padding: 0.8rem 1.6rem;
   border-radius: 0.313rem;
   cursor: pointer;
-  font-size: 1.1rem;
+  font-size: 1.rem;
   font-family: "Montserrat", sans-serif;
 }
 .btn-borrador:hover {
-  background-color: #7d7d7d;
+  background-color: orange;
   color: white;
-  border: 0.125rem solid #7d7d7d;
+  border: 0.125rem solid orange;
 }
 
 /*BOTONNNNNNNNNNNNNNNNNN*/
