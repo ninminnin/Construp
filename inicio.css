@@ -110,7 +110,7 @@
 .titulo-material {
   display: flex;
   justify-content: center;
-  gap: 0.5rem
+  gap: 2rem
   align-items: center;
   font-size: 1.3rem;
   margin-bottom: 1rem;
@@ -189,6 +189,7 @@
     text-align: left;
   }
 }
+
 
 
 
