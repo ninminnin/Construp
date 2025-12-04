@@ -108,32 +108,36 @@
   border: 0.125rem solid #828382;
 }
 .titulo-material {
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
-  align-items: center;
-  font-size: 1.3rem;
-  margin-bottom: 1rem;
+  position: relative; 
   width: 100%;
   text-align: center;
+  margin-bottom: 1rem;
+  padding: 0.3rem 2rem; 
+}
+
+.titulo-material h3 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 /* BTON del corazón */
 .btn-corazon {
+  position: absolute;
+  right: 0;         /* Se pega al borde derecho */
+  top: 50%;         /* Centrado vertical */
+  transform: translateY(-50%);
   background: none;
   border: none;
   font-size: 1.6rem;
   cursor: pointer;
   color: #aaa;
   transition: 0.2s;
-  padding: 0;
-  margin-left: auto;
-  transform: translateY(-2px);
 }
 
 .btn-corazon:hover {
   color: green;
-  transform: scale(1.15) translateY(-2px);
+  transform: translateY(-50%) scale(1.15);
 }
 
 /*  marcado */
@@ -191,6 +195,7 @@
     text-align: left;
   }
 }
+
 
 
 
