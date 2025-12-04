@@ -167,9 +167,9 @@
   margin: 3rem 0;
 }
 .btn-borrador {
-  background-color: gray;
+  background-color: #666666;
   color: white;
-  border: 0.125rem solid gray;
+  border: 0.125rem solid #666666;
   padding: 0.8rem 1.6rem;
   border-radius: 0.313rem;
   cursor: pointer;
@@ -177,9 +177,9 @@
   font-family: "Montserrat", sans-serif;
 }
 .btn-borrador:hover {
-  background-color: orange;
+  background-color: #3c3c3c;
   color: white;
-  border: 0.125rem solid orange;
+  border: 0.125rem solid #3c3c3c;
 }
 
 /*BOTONNNNNNNNNNNNNNNNNN*/
