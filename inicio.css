@@ -122,16 +122,18 @@
 .btn-corazon {
   background: none;
   border: none;
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   cursor: pointer;
   color: #aaa;
   transition: 0.2s;
   padding: 0;
+  margin-left: auto;
+  transform: translateY(-2px);
 }
 
 .btn-corazon:hover {
   color: green;
-  transform: scale(1.15);
+  transform: scale(1.15) translateY(-2px);
 }
 
 /*  marcado */
@@ -189,6 +191,7 @@
     text-align: left;
   }
 }
+
 
 
 
