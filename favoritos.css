@@ -153,10 +153,10 @@
   }
 
   .lista-deseos {
-    width: 100%;
-    max-width: 100%;
-    padding: 1rem 1.2rem;
-    margin: 1.5rem auto;
+    width: 90%;
+    max-width: 32rem;
+    padding: 1.5rem 1.5rem;
+    margin: 2rem auto;
     box-sizing: border-box;
     overflow: hidden;
   }
