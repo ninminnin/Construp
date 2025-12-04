@@ -91,11 +91,14 @@
     top: 6.8rem;
     padding-left: 1rem;
     padding-right: 1rem;
-    margin-left: -0.4rem;
+    margin-left: -0.4rem
+    display:flex;
   }
 
   .barra input {
-    max-width: 74.5%;
+    
+    flex-grow: 1;       /* se estira según el espacio disponible */
+    width: 100%;
   }
 
   .icono-filtro {
